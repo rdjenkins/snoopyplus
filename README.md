@@ -15,6 +15,7 @@ Example code:
 
 <pre>
 &lt;?php
+include_once &quot;snoopy/Snoopy.class.php&quot;;
 include_once &quot;class_Snoopyplus.php&quot;;
 
 $snoopyplus  = new Snoopyplus;
