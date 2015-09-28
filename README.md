@@ -22,7 +22,6 @@ if($snoopyplus-&gt;fetch2(&quot;http://t.co/X8sVIJg3zP&quot;)){
 		if ($snoopyplus-&gt;lastredirectaddr) {
 			print &quot;&lt;h1&gt;$snoopyplus-&gt;lastredirectaddr&lt;/h1&gt;&quot;;
 		}
-		print &quot;&lt;pre&gt;&quot;.htmlspecialchars($snoopyplus-&gt;results).&quot;&lt;/pre&gt;
-&quot;;
+		print &quot;&lt;pre&gt;&quot;.htmlspecialchars($snoopyplus-&gt;results).&quot;&lt;/pre&gt;&quot;;
 ?&gt;
 </pre>
