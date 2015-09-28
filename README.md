@@ -13,16 +13,16 @@ Better relative to absolute URL conversion
 
 Example code:
 
-<?php
-include_once "snoopy/Snoopy.class.php";
-include_once "class_snoopyplus.php";
+<pre>
+&lt;?php
+include_once &quot;class_Snoopyplus.php&quot;;
 
 $snoopyplus  = new Snoopyplus;
-if($snoopyplus->fetch2("http://t.co/X8sVIJg3zP")){
-		if ($snoopyplus->lastredirectaddr) {
-			print "<h1>$snoopyplus->lastredirectaddr</h1>";
+if($snoopyplus-&gt;fetch2(&quot;http://t.co/X8sVIJg3zP&quot;)){
+		if ($snoopyplus-&gt;lastredirectaddr) {
+			print &quot;&lt;h1&gt;$snoopyplus-&gt;lastredirectaddr&lt;/h1&gt;&quot;;
 		}
-		print "<pre>".htmlspecialchars($snoopyplus->results)."</pre>\n";
-}
-
-?>
+		print &quot;&lt;pre&gt;&quot;.htmlspecialchars($snoopyplus-&gt;results).&quot;&lt;/pre&gt;
+&quot;;
+?&gt;
+</pre>
