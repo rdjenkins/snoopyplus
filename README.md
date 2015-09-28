@@ -7,9 +7,11 @@ It is no longer maintained and this wrapper class seeks to extend it.
 
 Added features
 
-Better handling of gzip encoding
-Local storage of downloaded content ... store() and is_stored() methods
-Better relative to absolute URL conversion
+<ul>
+<li>Better handling of gzip encoding</li>
+<li>Local storage of downloaded content ... store() and is_stored() methods</li>
+<li>Better relative to absolute URL conversion</li>
+</ul>
 
 Example code:
 
