@@ -1,5 +1,5 @@
 # snoopyplus
-An extension of the Snoopy PHP class. Snoopy is a PHP class that simulates a web browser. It automates the task of retrieving web page content and posting forms, for example.
+An extension of the Snoopy PHP class. "Snoopy is a PHP class that simulates a web browser. It automates the task of retrieving web page content and posting forms, for example."
 
 Snoopy PHP class is available from SourceForge https://sourceforge.net/projects/snoopy/
 
