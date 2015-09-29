@@ -7,7 +7,6 @@ class Snoopyplus extends Snoopy {
 	var $snoopyplus_directory = "cache/";
 	var $snoopyplus_cache = TRUE;
 
-
 	public function is_stored($url) {
 		if ($this->snoopyplus_cache) {
 			$localfilename = $this->snoopyplus_directory . sha1($url) . "." . pathinfo(parse_url($url)['path'], PATHINFO_EXTENSION);
@@ -98,8 +97,6 @@ class Snoopyplus extends Snoopy {
             return false;
     }
 
-
-
     /*======================================================================*\
         Function:	_expandimglinks
         Purpose:	expand each link into a fully qualified URL
@@ -118,8 +115,6 @@ class Snoopyplus extends Snoopy {
 
         return $expandedLinks;
     }
-
-
 
 
     /*======================================================================*\
@@ -239,8 +234,6 @@ class Snoopyplus extends Snoopy {
 	//print url2absolute("file:///path/to/some/file.html","../../../../../another_file.php?id=5") . "<br>"; // should be an error!
 	//print url2absolute("http://path/to/some/file.html?source=this/one","another_file.php?id=5") . "<br>"; // with query string on base URL
 	//print url2absolute("http://path/to/some/file.html","//other-path/another_file.php?id=5") . "<br>"; // scheme relative
-
-
 
 }
 
