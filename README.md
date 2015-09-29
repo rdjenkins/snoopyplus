@@ -5,7 +5,7 @@ Snoopy PHP class is available from SourceForge https://sourceforge.net/projects/
 
 It is no longer maintained and this wrapper class seeks to extend it.
 
-Added features
+Added features:
 
 <ul>
 <li>Better handling of gzip encoding</li>
